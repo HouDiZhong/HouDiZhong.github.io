@@ -1,0 +1,17 @@
+{
+	"name": "有章",
+	"short_name": "有章",
+	"description": "有章企业版",
+	"lang": "cn",
+	"icons": [
+		{
+			"src": "yz-logo.png",
+			"type": "image/png",
+			"sizes": "196x196"
+		}
+	],
+	"start_url": "/#pwa=true",
+	"display": "standalone",
+	"orientation": "portrait",
+	"background_color": "#fff"
+}
