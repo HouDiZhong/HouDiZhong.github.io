@@ -1,0 +1,490 @@
+
+body{
+	background: #fff !important;
+}
+body .pdfViewer .page{
+	margin-top: 25px;
+	box-shadow: 0 2px 6px #ddd;
+    border: none;
+}
+
+body #toolbarContainer,
+body .findbar, .secondaryToolbar{
+	background: #fff !important;
+}
+body #toolbarViewer{
+	height: 44px;
+	box-sizing: border-box;
+	padding: 0 20px;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+body #toolbarContainer{
+	height: 44px;
+}
+body #viewerContainer,
+body #sidebarContainer{
+	top: 45px;
+}
+body .findbar,
+body .secondaryToolbar{
+	top: 45px;
+}
+body .extend-mt4{
+	margin-top: 5px;
+}
+body .splitToolbarButton{
+	margin: 0 !important;
+}
+body #loadingBar{
+	background-color: #f8f8f8;
+    border-bottom: 1px solid #f8f8f8;
+}
+body #loadingBar .progress{
+	background-color: #8098cb;
+}
+body .extend-navbar-btn {
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	box-sizing: border-box;
+	color: #8098cb;
+	font-size: 20px;
+	background: #fff;
+	border: none;
+	outline: none;
+	margin-left: 20px;
+}
+
+body .extend-navbar-btn.iconfont-open-menu {
+	height: 15px;
+	font-size: 15px;
+}
+
+body .extend-navbar-btn:hover{
+	color: #506fbc;
+}
+body .extend-navbar-btn>span{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+
+body .extend-navbar-btn:first-child {
+	margin-left: 0;
+}
+
+#toolbarViewer #toolbarViewerLeft,
+#toolbarViewer #toolbarViewerRight {
+	display: flex;
+	align-items: center;
+}
+
+
+body .toolbarField.pageNumber{
+	height: 20px;
+	margin-left: 20px;
+	font-size: 16px;
+	color: #333;
+	border: 1px solid #dee1e8;
+	margin: 0 0 0 16px;
+}
+body .toolbarField.pageNumber:focus{
+	border-color: #506fbc;
+}
+body .toolbarLabel{
+	font-size: 16px;
+    color: #333;
+}
+body .extend-navbar-btn.zoom-out{
+	float: left;
+    margin-left: 16px;
+    font-size: 20px;
+    padding: 4px 4px;
+}
+body .extend-navbar-btn.zoom-in{
+	float: left;
+	margin-left: 16px;
+	font-size: 20px;
+    padding: 4px 4px;
+}
+body .extend-dropdown-toolbar-button{
+	float: left;
+	margin-left: 16px;
+}
+body .extend-dropdown-toolbar-button>select{
+	height: 30px;
+	width: 110px;
+    font-size: 14px;
+    border: 1px solid #dee1e8;
+    border-radius: 4px;
+    color: #333;
+}
+body .extend-dropdown-toolbar-button>select:focus{
+	border-color: #506fbc;
+}
+body .tools-btn{
+    margin-left: 16px;
+    padding: 0 0 0 2px;
+    font-size: 22px;
+}
+body .extend-navbar-btn.share-btn{
+	position: relative;
+    margin-left: 16px;
+}
+body .extend-navbar-btn .share-btn-in{
+	position: absolute;
+	z-index: 30001;
+    display: none;
+    top: 29px;
+    padding: 4px 8px;
+    background: #FFF;
+    border: 1px solid #eee;
+    left: -50px;
+    width: 100px;
+    height: auto;
+}
+body .extend-navbar-btn .share-btn-in>a{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 4px;
+    color:#fff;
+}
+body .share-btn-in .fa-qq{
+	background: #0096f1;
+}
+body .share-btn-in .fa-weibo{
+    background: #e63c53;
+}
+body .share-btn-in .fa-weixin{
+    background: #56b924;
+}
+body .extend-navbar-btn.share-btn:hover .share-btn-in{
+	display: block;
+}
+body .wxQrLayer{
+	box-sizing: border-box;
+}
+body .doorHanger,
+body .doorHangerRight{
+	border: none;
+}
+body .secondaryToolbarButton::before{
+	top: 0;
+	font-size: 25px;
+}
+body .toolbarButton,
+body .dropdownToolbarButton,
+body .secondaryToolbarButton,
+body .overlayButton{
+	color: #333;
+}
+body .findbar > div {
+    height: 38px;
+    box-sizing: border-box;
+}
+body #findInput{
+	color: #333;
+    border: 1px solid #ccc;
+    height: 22px;
+    font-size: 16px;
+}
+body #findbarInputContainer .splitToolbarButton{
+	padding: 4px 6px;
+}
+body #findbarOptionsOneContainer,
+body #findbarOptionsTwoContainer,
+body #findbarMessageContainer{
+    padding: 5px 6px;
+}
+body .findbar.wrapContainers > div{
+	clear: none;
+}
+body .findbar.doorHanger{
+	padding-top: 2px;
+    padding-bottom: 2px;
+}
+body .findbar.doorHanger:before,
+body .findbar.doorHanger:after,
+body .secondaryToolbar.doorHangerRight:after{
+	border-bottom-color:#fff;
+}
+
+body #sidebarContainer #toolbarSidebar{
+	height: 0 !important;
+	overflow: hidden;
+}
+body #sidebarContainer{
+	border-top: none;
+}
+body #sidebarContent{
+	top: 0;
+	background: #fff;
+	box-shadow: 2px 0 4px #eee !important;
+}
+body #sidebarContent .outlineItem > a{
+	color: #4A4A4A;
+	font-size: 16px;
+    line-height: 24px;
+    padding: 8px 0;
+}
+body #sidebarContent .outlineItem > a:hover{
+        color: #000;
+    background-color: #f8f8f8;
+}
+
+:root {
+  --sidebar-width: 300px;
+}
+body #outlineView{
+	padding-top: 10px;
+}
+body .extend-shuqian{
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 29px;
+    position: relative;
+    top: -1px;
+    color: #8098cb;
+    cursor: pointer;
+}
+body .extend-shuqian:hover{
+    color: #506fbc;
+}
+
+.extend-manage-bookmark-dialog{
+	display: none;
+	position: fixed;
+	z-index:99999;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width:100%;
+	background: rgba(0,0,0,0.3);
+}
+.extend-manage-bookmark-dialog .cont{
+	position: absolute;
+	width: 72%;
+    top: 100px;
+    left: 50%;
+    margin-left: -36%;
+    background: #fff;
+	border-radius: 24px;
+}
+.extend-manage-bookmark-dialog .bookmark-header{
+	position: relative;
+    font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.extend-manage-bookmark-dialog .bookmark-header .close-btn{
+	position: absolute;
+    font-size: 15px;
+    color: #666;
+    cursor: pointer;
+    right: 15px;
+}
+.extend-manage-bookmark-dialog .bookmark-header .close-btn:hover {
+	color: #333;
+}
+.extend-manage-bookmark-dialog .bookmark-list-out {
+	padding: 0 20px;
+    color: #333;
+	max-height: 420px;
+	overflow-y: auto;
+	min-height: 66px;
+}
+
+.bookmark-list-out .no-bookmark {
+	display: block;
+	text-align: center;
+	line-height: 46px;
+	background: #F2F7FF;
+}
+
+.extend-manage-bookmark-dialog .bookmark-list {
+	list-style: none;
+}
+.extend-manage-bookmark-dialog .bookmark-list .item{
+	padding: 8px 10px;
+	background: #F2F7FF;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.extend-manage-bookmark-dialog .bookmark-list .item:last-child {
+	margin-bottom: 20px;
+}
+
+.bookmark-list .item-top .bookmarker {
+	color: #8098cb;
+	margin-right: 5px;
+}
+
+.bookmark-list .item-top .pages {
+	font-size: 13px;
+	color: #4D4D4D;
+	line-height: 18px;
+}
+
+.bookmark-list .item-bottom {
+	display: flex;
+	font-size: 12px;
+	margin-top: 4px;
+	justify-content: space-between;
+}
+
+.bookmark-list .item-bottom .times {
+	color: #999;
+	margin-left: 20px;
+}
+.bookmark-list .item-bottom .delete-btn {
+	color: #5281C9;
+}
+
+html[dir='ltr'] .outlineItemToggler::before {
+    right: 0 !important;
+    top: 8px !important;
+}
+.outlineItemToggler::before {
+    height: 30px;
+    width: 16px;
+}
+
+/* 试读购买弹窗 */
+.layui-layer.layerTryBook {
+	border-radius: 12px;
+}
+.layerTryBook .tryLayer{
+    text-align: center;
+    color: #4A4A4A;
+}
+.layerTryBook .closeIoc .closebtn{
+    font-size: 15px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.layerTryBook .tryBookInfo img{
+    width: 80px;
+    height: 115px;
+    border-radius: 3px;
+    margin: 45px auto 15px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.4);
+}
+
+.layerTryBook .tryBookInfo p.title{
+    font-size: 14px;
+	color: #333;
+	line-height: 20px;
+}
+
+.layerTryBook .tryBookInfo .part-authors {
+	color: #999;
+	line-height: 15px;
+	margin-top: 10px;
+	font-size: 12px;
+}
+
+.layerTryBook .fixedInfo p.ftitle {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 30px;
+	color: #333;
+}
+
+
+
+
+/* 试读购买弹窗 end*/
+/* 页面内书签 */
+.has-mark:before{
+	display:block;
+	content:'';
+	position:absolute;
+	z-index: 9;
+	width: 5.6%;
+    height: 16%;
+    left: 5.6%;
+	top:0;
+	background:url('../images/extend-mark.png') no-repeat left top;
+	background-size: 100%;
+}
+
+/* 试读目录 */
+.need-buy{
+	color:#999 !important;
+}
+
+.float-toolbar {
+	position: fixed;
+	right: 40px;
+	z-index: 99;
+	top: 50%;
+	transform: translateY(-50%);
+
+	display: none;
+}
+.float-toolbar .tool-warp {
+	width: 44px;
+	height: 140px;
+
+	background: #fff;
+	border-radius: 26px;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,0.08);
+
+	display: flex;
+    align-items: center;
+	flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.float-toolbar .tool-warp span {
+	color: #8098cb;
+	font-size: 20px;
+}
+
+.btns-warp {
+	position: fixed;
+	left: 24%;
+	bottom: 20%;
+
+	z-index: 99;
+	display: none;
+}
+
+.btns-warp button {
+	width: 91px;
+	height: 35px;
+
+	opacity: 0.8;
+	background: #000;
+	box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .08);
+	border-radius: 26px;
+
+	font-size: 13px;
+	color: #fff;
+}
+.btns-warp button:hover {
+	color: #fff;
+}
+
+.btns-warp button i {
+	font-size: 12px;
+	margin-right: 6px;
+}
+
+.btns-warp .page-next-btn i {
+	margin-left: 6px;
+	margin-right: 0;
+}
